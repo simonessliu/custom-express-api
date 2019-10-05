@@ -1,0 +1,20 @@
+https://github.com/nodejs/node-gyp#option-2
+2. mongoose to use express to connect mongodb
+3. free hosted copy : cloud.mongodb.com
+4. mdf hash generator to protect password
+
+JWT
+json web token
+1. a string that carries some identifying information
+2. Can be used to prove that you are who you say you are
+3. JWT is created using a special key that only our server knows
+4. not possible to create a new jwt or change info in an existing one without that key
+
+in a word, it proves that you are the user with email 'test@test.com' Send it along with any followup request
+
+ the verify signature part in jwt(the blue one in jwt.io website)
+ your 255 or 256 bit secret, this is where we put some little secret token that is unique to our server, this gonna make sure that nobody else
+ can make a modification or a change to an existing token
+
+
+THIS FILE WE BASICALLY CREATED AN CUSTOM EXPRESS API
